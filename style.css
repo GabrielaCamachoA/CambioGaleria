@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins", system-ui;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.container{
+    text-align: center;
+}
+.container h1{
+    margin-bottom: 20px;
+}
+.container img{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.botones button{
+    background-color: #fff;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2) ;
+    transition: background-color 0.3s, color 0.3s;
+}
+.botones :hover{
+    background-color: #e7e7e7;
+}
